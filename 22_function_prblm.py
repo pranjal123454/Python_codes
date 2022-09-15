@@ -1,0 +1,14 @@
+#find the maximum of the three numbers
+def maximum(n1,n2,n3):
+  if( n1>n2):  
+    if(n1>n3):
+        return n1
+    else:
+        return n3
+  else:
+    if(n2>n3):
+        return  n2
+    else:
+        return n3           
+f=maximum(10,11,12)
+print(f)        
